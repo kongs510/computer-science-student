@@ -1,4 +1,4 @@
-# heap and stack => memory
+#  `memory` heap and stack 
 ![화면 캡처 2022-06-27 213956](https://user-images.githubusercontent.com/68903200/175944414-7b343df3-d25a-4d07-8b7e-2dcf3ab9cf66.png)
 
 
