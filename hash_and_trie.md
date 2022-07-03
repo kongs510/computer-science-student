@@ -14,5 +14,26 @@
 
 ![image](https://user-images.githubusercontent.com/68903200/177031782-fecc83e9-7c6a-49ab-9429-d294e1650fa5.png)
 
+Hash Table
+key-value 에서 key를 테이블에 저장할 때 key값을 Hash Method를 이용해 계산을 수행한 후, 그 결과값을 배열의 인덱스로 사용하여 저장하는 방식이다. 여기서 key값을 계산하는 것이 Hash Method 이다.
+
+
+Hash Method
+Hash는 특별한 알고리즘을 이용하여 데이터의 고유한 숫자값을 만들어 인덱스로 사용한다고 했다. 이 알고리즘을 구현한 메소드를 Hash Method라고 하며 Hash Method에 의해 반환된 데이터의 고유 숫자값을 Hash Code 라고한다.
+
+*자바에서는 Object 클래스의 hashCode() 메소드를 이용하여 모든 객체의 Hash Code를 쉽게 구할 수 있다.
+
+*Hash Method를 이용해서 데이터를 Hash Table에 저장하고 검색하는 기법을 Hashing이라 한다.
+
+Hash Method는 데이터가 저장되어 있는 곳을 알려주기 때문에 다량의 데이터 중에서도 원하는 데이터를 빠르게 찾을 수 있다.
+
+
+Hashing
+*HashMap과 같이 Hashing을 구현한 컬렉션 클래스에서는 Object 클래스에 정의된 hashCode()를 Hash Method로 사용한다. 
+
+*Object 클래스에 정의된 hashCode()는 객체의 주소를 이용하는 알고리즘으로 해시 코드를 만들어내기 때문에 모든 객체에 대해 중복되지 않는 값을 제공한다.
+
+*String 클래스의 경우 Object로 부터 상속받은 hashCode()를 오버 라이딩하여 문자열의 내용으로 해시 코드를 만들어 낸다. 서로다른 String 인스턴스 일지라도 같은 내용의 문자열을 가졌다면 hashCode()를 호출했을 때 같은 값을 얻는다.
+
 
 
