@@ -14,6 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/68903200/177031782-fecc83e9-7c6a-49ab-9429-d294e1650fa5.png)
 
+
 Hash Table
 key-value 에서 key를 테이블에 저장할 때 key값을 Hash Method를 이용해 계산을 수행한 후, 그 결과값을 배열의 인덱스로 사용하여 저장하는 방식이다. 여기서 key값을 계산하는 것이 Hash Method 이다.
 
@@ -29,7 +30,7 @@ Hash Method를 이용해서 데이터를 Hash Table에 저장하고 검색하는
 
 Hash Method는 데이터가 저장되어 있는 곳을 알려주기 때문에 다량의 데이터 중에서도 원하는 데이터를 빠르게 찾을 수 있다.
 
-
+<img src="https://user-images.githubusercontent.com/68903200/177036818-edb1fc09-2ad3-4e73-8f23-ceea462abb80.png" width="500" height="500"/>
 Hashing
 
 HashMap과 같이 Hashing을 구현한 컬렉션 클래스에서는 Object 클래스에 정의된 hashCode()를 Hash Method로 사용한다. 
